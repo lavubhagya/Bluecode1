@@ -19,6 +19,7 @@ fi
  
 echo "the given string is $str"
 echo "now unset the variable"
+echo this is a new line 
 unset str
 echo "after unset,testing the string [\$str ]"
 if [ $str ]
